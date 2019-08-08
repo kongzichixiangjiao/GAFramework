@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="YYMosaicViewController" customModule="Product_YYFramework" customModuleProvider="target">
+            <connections>
+                <outlet property="imageV" destination="iHy-md-DQS" id="wdP-mS-xOo"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bQ9-FY-Poa">
+                    <rect key="frame" x="172" y="597" width="31" height="30"/>
+                    <state key="normal" title="保存"/>
+                    <connections>
+                        <action selector="save:" destination="-1" eventType="touchUpInside" id="XFp-B8-QJl"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sWK-uS-LNf">
+                    <rect key="frame" x="111" y="597" width="31" height="30"/>
+                    <state key="normal" title="重置"/>
+                    <connections>
+                        <action selector="reset:" destination="-1" eventType="touchUpInside" id="CLn-n5-H67"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="t1g-Sy-8hq">
+                    <rect key="frame" x="233" y="597" width="46" height="30"/>
+                    <state key="normal" title="上一步"/>
+                    <connections>
+                        <action selector="preStep:" destination="-1" eventType="touchUpInside" id="09J-fT-ps8"/>
+                    </connections>
+                </button>
+                <imageView hidden="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="iHy-md-DQS">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="577"/>
+                </imageView>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="bQ9-FY-Poa" firstAttribute="top" secondItem="iHy-md-DQS" secondAttribute="bottom" constant="20" id="0o0-Aq-mpW"/>
+                <constraint firstItem="t1g-Sy-8hq" firstAttribute="centerY" secondItem="bQ9-FY-Poa" secondAttribute="centerY" id="0vl-Ri-4KL"/>
+                <constraint firstItem="sWK-uS-LNf" firstAttribute="centerY" secondItem="bQ9-FY-Poa" secondAttribute="centerY" id="BIP-W9-m5p"/>
+                <constraint firstItem="iHy-md-DQS" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="GFt-k3-CHd"/>
+                <constraint firstItem="iHy-md-DQS" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="hle-2W-94g"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="iHy-md-DQS" secondAttribute="trailing" id="pEk-c8-HH3"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="bottom" secondItem="bQ9-FY-Poa" secondAttribute="bottom" constant="40" id="qgt-iW-OME"/>
+                <constraint firstItem="bQ9-FY-Poa" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="u2Q-S4-OWO"/>
+                <constraint firstItem="bQ9-FY-Poa" firstAttribute="leading" secondItem="sWK-uS-LNf" secondAttribute="trailing" constant="30" id="yh6-GR-4Q2"/>
+                <constraint firstItem="t1g-Sy-8hq" firstAttribute="leading" secondItem="bQ9-FY-Poa" secondAttribute="trailing" constant="30" id="zwy-nS-4qN"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
+            <point key="canvasLocation" x="33.5" y="53.5"/>
+        </view>
+    </objects>
+</document>

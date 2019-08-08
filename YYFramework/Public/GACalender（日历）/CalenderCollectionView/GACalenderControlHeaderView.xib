@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="GACalenderControlHeaderView" customModule="Product_YYFramework" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="128"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kd4-0t-FIw">
+                    <rect key="frame" x="125.5" y="0.0" width="124" height="128"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5zT-4X-8iy">
+                    <rect key="frame" x="0.0" y="0.0" width="125.5" height="128"/>
+                    <state key="normal" title="上一月"/>
+                    <connections>
+                        <action selector="leftAction:" destination="iN0-l3-epB" eventType="touchUpInside" id="GDe-gn-hQ3"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yOa-we-zrn">
+                    <rect key="frame" x="249.5" y="0.0" width="125.5" height="128"/>
+                    <state key="normal" title="下一月"/>
+                    <connections>
+                        <action selector="rightAction:" destination="iN0-l3-epB" eventType="touchUpInside" id="ZOz-KX-92d"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="meO-Pz-jNu">
+                    <rect key="frame" x="125.5" y="0.0" width="124" height="128"/>
+                    <connections>
+                        <action selector="titleAction:" destination="iN0-l3-epB" eventType="touchUpInside" id="7zC-45-vue"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="bottom" secondItem="5zT-4X-8iy" secondAttribute="bottom" id="01J-ln-0vg"/>
+                <constraint firstAttribute="trailing" secondItem="yOa-we-zrn" secondAttribute="trailing" id="Iq3-Lv-Y9n"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="bottom" secondItem="kd4-0t-FIw" secondAttribute="bottom" id="L8r-LL-hd1"/>
+                <constraint firstItem="yOa-we-zrn" firstAttribute="top" secondItem="vUN-kp-3ea" secondAttribute="top" id="Mpu-Jd-kTC"/>
+                <constraint firstItem="kd4-0t-FIw" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="Oon-wm-gGT"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="bottom" secondItem="meO-Pz-jNu" secondAttribute="bottom" id="QeL-jy-Xt9"/>
+                <constraint firstItem="yOa-we-zrn" firstAttribute="leading" secondItem="meO-Pz-jNu" secondAttribute="trailing" id="S4L-A8-b5V"/>
+                <constraint firstItem="kd4-0t-FIw" firstAttribute="leading" secondItem="5zT-4X-8iy" secondAttribute="trailing" id="Sgo-uB-9AT"/>
+                <constraint firstItem="kd4-0t-FIw" firstAttribute="top" secondItem="vUN-kp-3ea" secondAttribute="top" id="Tin-Wy-Dif"/>
+                <constraint firstItem="kd4-0t-FIw" firstAttribute="width" secondItem="iN0-l3-epB" secondAttribute="width" multiplier="0.33" id="TtK-VN-Vto"/>
+                <constraint firstItem="meO-Pz-jNu" firstAttribute="top" secondItem="vUN-kp-3ea" secondAttribute="top" id="YdF-CM-LFN"/>
+                <constraint firstItem="kd4-0t-FIw" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" id="boT-88-lOe"/>
+                <constraint firstItem="yOa-we-zrn" firstAttribute="bottom" secondItem="vUN-kp-3ea" secondAttribute="bottom" id="cJ4-Zh-9RU"/>
+                <constraint firstItem="meO-Pz-jNu" firstAttribute="leading" secondItem="5zT-4X-8iy" secondAttribute="trailing" id="gbh-ji-Dwu"/>
+                <constraint firstItem="5zT-4X-8iy" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" id="pEV-WS-zgJ"/>
+                <constraint firstItem="5zT-4X-8iy" firstAttribute="top" secondItem="vUN-kp-3ea" secondAttribute="top" id="rzB-Kz-5OM"/>
+                <constraint firstItem="yOa-we-zrn" firstAttribute="leading" secondItem="kd4-0t-FIw" secondAttribute="trailing" id="yoB-XJ-Twc"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <connections>
+                <outlet property="ymLabel" destination="kd4-0t-FIw" id="cLa-jd-Z08"/>
+            </connections>
+            <point key="canvasLocation" x="138.40000000000001" y="-89.055472263868069"/>
+        </view>
+    </objects>
+</document>

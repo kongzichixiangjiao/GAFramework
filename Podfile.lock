@@ -1,0 +1,185 @@
+PODS:
+  - AFNetworking (3.2.1):
+    - AFNetworking/NSURLSession (= 3.2.1)
+    - AFNetworking/Reachability (= 3.2.1)
+    - AFNetworking/Security (= 3.2.1)
+    - AFNetworking/Serialization (= 3.2.1)
+    - AFNetworking/UIKit (= 3.2.1)
+  - AFNetworking/NSURLSession (3.2.1):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (3.2.1)
+  - AFNetworking/Security (3.2.1)
+  - AFNetworking/Serialization (3.2.1)
+  - AFNetworking/UIKit (3.2.1):
+    - AFNetworking/NSURLSession
+  - Alamofire (4.8.2)
+  - AlamofireImage (3.5.2):
+    - Alamofire (~> 4.8)
+  - BaiduMobStatCodeless (5.0.2)
+  - BMPlayer (1.2.1):
+    - BMPlayer/Full (= 1.2.1)
+  - BMPlayer/Core (1.2.1)
+  - BMPlayer/Full (1.2.1):
+    - BMPlayer/Core
+    - NVActivityIndicatorView (~> 4.6.1)
+    - SnapKit (~> 4.2.0)
+  - CryptoSwift (0.15.0)
+  - CTMediator (25)
+  - ESPullToRefresh (2.9)
+  - GAAlertPresentation (0.0.3)
+  - Growing (2.7.8)
+  - GrowingAutoTrackKit (2.7.8):
+    - GrowingCoreKit (~> 2.7.8)
+  - GrowingCoreKit (2.7.8):
+    - Growing (~> 2.7.8)
+  - HandyJSON (5.0.0)
+  - JTAppleCalendar (7.1.6)
+  - Masonry (1.1.0)
+  - MMLayout (0.2.0)
+  - NVActivityIndicatorView (4.6.1):
+    - NVActivityIndicatorView/Presenter (= 4.6.1)
+  - NVActivityIndicatorView/Presenter (4.6.1)
+  - OCMock (3.4.3)
+  - PLPlayerKit (3.4.1):
+    - PLPlayerKit/universal (= 3.4.1)
+  - PLPlayerKit/universal (3.4.1)
+  - ReactiveCocoa (9.0.0):
+    - ReactiveSwift (~> 5.0)
+  - ReactiveSwift (5.0.1):
+    - Result (~> 4.1)
+  - Result (4.1.0)
+  - SDWebImage (5.0.6):
+    - SDWebImage/Core (= 5.0.6)
+  - SDWebImage/Core (5.0.6)
+  - SnapKit (4.2.0)
+  - SSZipArchive (2.1.4)
+  - SuperPlayer (3.1.0):
+    - AFNetworking
+    - Masonry
+    - MMLayout
+    - SDWebImage
+    - SuperPlayer/Player (= 3.1.0)
+  - SuperPlayer/Player (3.1.0):
+    - AFNetworking
+    - Masonry
+    - MMLayout
+    - SDWebImage
+  - SwiftDate (6.0.3)
+  - SwiftTheme (0.4.3)
+  - Then (2.4.0)
+  - TransitionableTab (0.2.0)
+  - UMCAnalytics (6.0.3):
+    - UMCCommon
+  - UMCCommon (2.0.1)
+  - UMCCommonLog (1.0.0)
+  - UMCSecurityPlugins (1.0.6)
+
+DEPENDENCIES:
+  - AFNetworking (~> 3.0)
+  - Alamofire
+  - AlamofireImage
+  - BaiduMobStatCodeless
+  - BMPlayer (~> 1.2.0)
+  - CryptoSwift (= 0.15.0)
+  - CTMediator
+  - ESPullToRefresh
+  - GAAlertPresentation
+  - GrowingAutoTrackKit
+  - HandyJSON
+  - JTAppleCalendar (= 7.1.6)
+  - OCMock
+  - PLPlayerKit (from `https://raw.githubusercontent.com/pili-engineering/PLPlayerKit/master/PLPlayerKit-Universal.podspec`)
+  - ReactiveCocoa (= 9.0.0)
+  - SnapKit
+  - SSZipArchive (= 2.1.4)
+  - SuperPlayer
+  - SwiftDate
+  - SwiftTheme (= 0.4.3)
+  - Then (= 2.4.0)
+  - TransitionableTab
+  - UMCAnalytics
+  - UMCCommon
+  - UMCCommonLog
+  - UMCSecurityPlugins
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - AFNetworking
+    - Alamofire
+    - AlamofireImage
+    - BaiduMobStatCodeless
+    - BMPlayer
+    - CryptoSwift
+    - CTMediator
+    - ESPullToRefresh
+    - GAAlertPresentation
+    - Growing
+    - GrowingAutoTrackKit
+    - GrowingCoreKit
+    - HandyJSON
+    - JTAppleCalendar
+    - Masonry
+    - MMLayout
+    - NVActivityIndicatorView
+    - OCMock
+    - ReactiveCocoa
+    - ReactiveSwift
+    - Result
+    - SDWebImage
+    - SnapKit
+    - SSZipArchive
+    - SuperPlayer
+    - SwiftDate
+    - SwiftTheme
+    - Then
+    - TransitionableTab
+    - UMCAnalytics
+    - UMCCommon
+    - UMCCommonLog
+    - UMCSecurityPlugins
+
+EXTERNAL SOURCES:
+  PLPlayerKit:
+    :podspec: https://raw.githubusercontent.com/pili-engineering/PLPlayerKit/master/PLPlayerKit-Universal.podspec
+
+SPEC CHECKSUMS:
+  AFNetworking: b6f891fdfaed196b46c7a83cf209e09697b94057
+  Alamofire: ae5c501addb7afdbb13687d7f2f722c78734c2d3
+  AlamofireImage: 63cfe3baf1370be6c498149687cf6db3e3b00999
+  BaiduMobStatCodeless: 8f786558168e5af04c7dab92d0f314ca9f043007
+  BMPlayer: ea12f9d82e37f968dea2078b5e58e356ee4439d8
+  CryptoSwift: 769f58a9e89f64e8796c2e59ce5f002dc81a2438
+  CTMediator: 830c1fc204b3a6abf2a059510c7380f56343da0f
+  ESPullToRefresh: ce058a36454a5032519cc9d8b45da217728cf104
+  GAAlertPresentation: 5a7ed50a5e90fac9868d04b50aaac0c005146c16
+  Growing: be00e6237349d7368f575a1d05b4304a290143b4
+  GrowingAutoTrackKit: 6d5c974a40993824ce89ec96508124558fa4385c
+  GrowingCoreKit: adae9f7d040e651bdeb9df210fe90b84e8170bc6
+  HandyJSON: 992f2d661716d6a91de82d0056927bc7813b5770
+  JTAppleCalendar: abb30678f42a4ef8a340a932b1dcb8c85a33dac2
+  Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
+  MMLayout: 3fb59d58eeb8656c64e61d550fb0088e10666c11
+  NVActivityIndicatorView: 4ca19fccc84595a78957336a086d00a49be6ce61
+  OCMock: 43565190abc78977ad44a61c0d20d7f0784d35ab
+  PLPlayerKit: 8dbda4525878842315e0ae6329dcefa7b5d8cc7e
+  ReactiveCocoa: 29709cf0cc7502ddd04a51220e10ee0336d8bec8
+  ReactiveSwift: cac20a5bbe560c5806bd29c0fccf90d03b996ac1
+  Result: bd966fac789cc6c1563440b348ab2598cc24d5c7
+  SDWebImage: 920f1a2ff1ca8296ad34f6e0510a1ef1d70ac965
+  SnapKit: fe8a619752f3f27075cc9a90244d75c6c3f27e2a
+  SSZipArchive: 41455d4b8d2b6ab93990820b50dc697c2554a322
+  SuperPlayer: 7d76241208e0b93020e52f8996f14e335aeb9b22
+  SwiftDate: 8d4f14bf1ef68e95094511504856547bf9e3e1a6
+  SwiftTheme: 628345b948068a48d330d76dffb1a990ea5f90aa
+  Then: 71866660c7af35a7343831f7668e7cd2b62ee0f2
+  TransitionableTab: 54a5d0af475033bdb83959fde4e5d6201af7e2ab
+  UMCAnalytics: ff58714ada407682c4a07548156f94bcec92f055
+  UMCCommon: 0263a057a2e1ae1da4c8308541e56904a493ce13
+  UMCCommonLog: 05a2d5de21858e3d870551562cff405c1366d244
+  UMCSecurityPlugins: 0831a08f3988f3cea9f1d3a7626cd9bee4fef150
+
+PODFILE CHECKSUM: 14d62858815b104b712e90b048ad58e40a277940
+
+COCOAPODS: 1.7.0.beta.2
